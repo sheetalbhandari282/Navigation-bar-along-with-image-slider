@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Rental website</title>
+<link href="stylo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+        <div id= "sliderbox">
+            <img src="ExamPaper.jpg">
+            <img src="textbooks.jpg">
+            <img src="fiction.jpg">
+        </div>
+</div>
+    </html>    

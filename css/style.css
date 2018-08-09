@@ -1,0 +1,19 @@
+p
+{
+    text-align: left;     
+    color: blue;
+}
+#para1
+{
+    text-align: center;
+    color: red;
+}
+.center
+{
+ text-align: right;
+ color: blueviolet
+}
+p:lang(eng) 
+{ 
+    background: yellow;
+}

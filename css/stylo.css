@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.main-nav
+{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+,main-nav li
+{
+    float: left;
+    height: 400px;
+    display: inline-block;
+    opacity: .9;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+.main-nav li a
+{
+    color: black;
+    text-decoration-line: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: block;
+}
+.main-nav li a:hover
+{
+    border: 1px solid black;
+}
+.logo img
+{
+    width: 100px;
+    height:auto;
+    float: left;
+}
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30 px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+.btn-two
+{
+   font-family: "Roboto", sans-serif;
+}
+.btn-two:hover
+{
+     background-color: black;
+    transition: all 0.5s ease-in;
+}
+#container
+{
+ width: 600px;
+overflow: hidden;
+margin: 10%;
+padding: 10%;
+}
+#sliderbox
+{
+    position: relative;
+    width: 1962px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img
+{
+ float: left;
+}
+@keyframes slideranimation
+{
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -570px;
+    }
+    45%
+    {
+        left: -400px;
+    }
+    50%
+    {
+        left: -590px;
+    }
+    70%
+    {
+        left: -450px;
+    }
+    75%
+    {
+        left: -1000px;
+    }
+    100%
+    {
+        left: -1600px;
+    }
+}
